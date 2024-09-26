@@ -7,10 +7,12 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class test {
 
-    public static void main(String[] args) throws InterruptedException {
+    @Test
+    public static void login() throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "C://Users//vikas//Downloads//chromedriver-win32//chromedriver-win32//chromedriver.exe");
 

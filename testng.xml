@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="TestLoginFunctionality">
+        <classes>
+            <class name="test"/> <!-- Replace 'test' with the full class name, including the package if needed -->
+        </classes>
+    </test>
+</suite>
