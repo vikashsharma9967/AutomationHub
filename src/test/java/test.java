@@ -7,12 +7,16 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class test {
 
+    @Parameters("Browser")
     @Test
-    public static void login() throws InterruptedException {
+    public static void login(String browserName) throws InterruptedException {
+
+        System.out.println("The name of the browser is : "+browserName);
 
         System.setProperty("webdriver.chrome.driver", "C://Users//vikas//Downloads//chromedriver-win32//chromedriver-win32//chromedriver.exe");
 
