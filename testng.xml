@@ -4,6 +4,10 @@
         <parameter name="Browser" value="${Browser}"/>
         <classes>
 
+
+
+
+            
             
             <class name="test"/> <!-- Replace 'test' with the full class name, including the package if needed -->
         </classes>
